@@ -1,17 +1,7 @@
 # Tensorflow problem sheet solution
 
 ## Introduction
-The following is a 4th year in-class assignment for Emerging technologies. These problems relate to the Python package Tensorflow. We will again use the famous iris data set.
-
-### What are Tensorflow & Keras?
-
-###### [Tensorflow](https://www.tensorflow.org/)
-
-TensorFlow™ is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them. The flexible architecture allows you to deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile device with a single API.
-
-###### [Keras](https://keras.io/)
-
-Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
+The following is a 4th year in-class assignment for Emerging technologies. These problems relate to the Python package Tensorflow. We will again use the famous iris data set. Please see the jupyter notebook `solution.ipynb` for the code and all of the documentation.
 
 ## Assignment Specification
 
@@ -30,3 +20,20 @@ Use the testing set to train your model.
 ### 4. Test the model
 
 Use the testing set to test your model, clearly calculating and displaying the error rate.
+
+## How to clone this repository
+
+* In the Clone with HTTPs section, copy the clone URL for the repository.
+* Open Git Bash.
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type `git clone`, and then paste the URL you copied in Step 2.
+* Press Enter. Your local clone will be created.
+
+## How to open the jupyter notebook
+The Jupyter Notebook App can be launched by clicking on the Jupyter Notebook icon installed by Anaconda in the start menu (Windows) or by typing in a terminal (cmd on Windows):
+
+`jupyter notebook`
+
+This will launch a new browser window (or a new tab) showing the Notebook Dashboard, a sort of control panel that allows (among other things) to select which notebook to open.
+
+Look for the folder which you have previously cloned named `python-problems4` - open it and click on `solution.ipynb`
